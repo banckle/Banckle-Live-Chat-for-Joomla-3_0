@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.1">
+	<name>Banckle Live Chat</name>
+	<author>Imran Anwar</author>
+	<creationDate>March, 2012</creationDate>
+	<copyright>Copyright (c) 2001-2012 Aspose Pty Ltd. All rights Reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>imran.anwar@banckle.com</authorEmail>
+	<authorUrl>http://banckle.com</authorUrl>
+	<version>1.1</version>
+	<description>Banckle Live Chat for Joomla</description>
+	<files>
+		<filename module="mod_bancklelivechat">mod_bancklelivechat.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<config><fields name="params"><fieldset name="basic">
+		<field type="spacer" size="10" label="Don't have Banckle account yet? &lt;br&gt; &lt;a href='http://banckle.com/action/signup?ref=https%3A%2F%2Fapps.banckle.com%2F';  target=&quot;_blank&quot; &gt;Sign Up for Free! &lt;/a&gt;" />		
+		<field name="banckleLCWidget" filter="raw" type="textarea" cols="50" rows="10" default="" size="100" label=" &lt;b&gt;Banckle Live Chat Widget Code &lt;/b&gt;" description="Banckle Live Chat deployment Code from apps.banckle.com" />
+		<field type="spacer" label="About getting BLC widget Code please read &lt;a href=&quot;http://banckle.com/wiki/display/livechat/integration-with-joomla.html&quot; target=&quot;_blank&quot;&gt;Banckle Live Chat for Joomla integration&lt;/a&gt;." />		
+	</fieldset></fields></config>
+
+    <params group="advanced">
+    </params>
+	  
+</extension>
